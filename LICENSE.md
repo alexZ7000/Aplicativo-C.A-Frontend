@@ -12,4 +12,3 @@ Other information:
 
       * By using or citing the work, you must imply endorsement
       by the author or the affirmer.
-      
