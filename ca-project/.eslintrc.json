@@ -1,12 +1,12 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
+        "es2022": true,
         "jest": true
     },
     "extends": [
-        "plugin:import/typescript",
         "standard-with-typescript",
+        "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended-type-checked",
         "plugin:@typescript-eslint/stylistic-type-checked",
         "plugin:prettier/recommended"
@@ -17,6 +17,9 @@
         "project": ["./tsconfig.json", "./tsconfig.node.json"],
         "tsconfigRootDir": "__dirname"
     },
-    "plugins": ["react", "@typescript-eslint", "prettier"], //prettier deve ser o último plugin para poder sobreescrever os antecessores
-    "rules": {}
+    "plugins": ["react", "@typescript-eslint", "prettier"],
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+    }
 }

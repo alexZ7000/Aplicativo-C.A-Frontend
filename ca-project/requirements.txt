@@ -1,0 +1,3 @@
+A configuração do Husky dessa ser feita dessa forma no package.json
+"prepare": "cd .. && husky install .husky"
+
