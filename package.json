@@ -57,11 +57,17 @@
         }
     },
     "lint-staged": {
-        "*.{js, jsx,ts,tsx,src/*.tsx,src/components/*.tsx}": [
+        "*.{js,ts,tsx}": [
             "eslint --quiet --fix"
         ],
-        "*.{json,js,ts,jsx,tsx,html}": [
+        "*.{json,js,ts,tsx,html}": [
             "prettier --write --ignore-unknown"
+        ],
+        "src/*.{tsx,js,ts}": [
+            "eslint --quiet --fix && prettier --write --ignore-unknown"
+        ],
+        "src/components/*.{tsx,js,ts}": [
+            "eslint --quiet --fix && prettier --write --ignore-unknown"
         ],
         "*.js": "eslint --cache --fix"
     }
