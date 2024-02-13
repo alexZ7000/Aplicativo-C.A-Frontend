@@ -57,7 +57,7 @@
         }
     },
     "lint-staged": {
-        "*.{js, jsx,ts,tsx}": [
+        "*.{js, jsx,ts,tsx,src/*.tsx,src/components/*.tsx}": [
             "eslint --quiet --fix"
         ],
         "*.{json,js,ts,jsx,tsx,html}": [
