@@ -10,7 +10,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "test": "jest",
-        "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
+        "format": "prettier --write .",
         "preview": "vite preview",
         "prepare": "husky && husky install"
     },
@@ -57,8 +57,7 @@
         }
     },
     "lint-staged": {
-        "*.+(js|jsx)": "eslint --fix",
-        "*.+(json|css|md)": "prettier --write",
+        "*.+(*)": "eslint --fix . && prettier --write .",
         "*.js": "eslint --cache --fix"
     }
 }
