@@ -21,6 +21,10 @@
   </li>
   <br>
   <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042" alt="tailwind" width="50" height="35" /> Tailwind
+  </li>
+  <br>
+  <li>
     <img src="https://github.com/alexZ7000/Aplicativo-C.A-Frontend/assets/78627928/2ca39d52-6f5c-48d0-b1de-8081e9c7f892" alt="typescript" width="40" height="40"/> Jest
   </li>
   <br>
