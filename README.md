@@ -53,6 +53,15 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/89361851?v=4" width="100px;" alt="era uma foto daora"/><br>
+        <sub>
+          <p><b><i>Gabriel Merola:</i></b> <a href="https://github.com/titans07"><i>titans07</i></a></p>
+        </sub>
+      </a>
+    </td>
+    <tr>
+    <td align="center">
+      <a href="#">
         <img src="https://avatars.githubusercontent.com/u/133998521?v=4" width="100px;" alt="era uma foto daora"/><br>
         <sub>
           <p><b><i>João Galhardo:</i></b> <a href="https://github.com/JoaoGalhard0"><i>JoaoGalhard0</i></a></p>
