@@ -59,7 +59,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
-    <tr>
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/133998521?v=4" width="100px;" alt="era uma foto daora"/><br>
